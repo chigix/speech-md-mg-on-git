@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Markdown 开源文档玩法</title>
+    
+    <meta name="description" content="达内每日一讲演示" />
+    <meta name="author" content="Richard Lea" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>当前浏览器无法播放本幻灯片效果</p>
+    <p>建议使用 <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> 之类的浏览器来欣赏本演讲。</p>
+</div>
+<div id="impress">
+    <div id="starter" class="step slide" data-x="-3000" data-y="-1500">
+        <q>Markdown + GIT</q>
+        <q style="margin-left:15%"><b>开源项目中的文档管理</b></q>
+        <q style="margin-left:70%">李颖豪</q>
+    </div>
+
+    <div class="step slide" data-x="-2000" data-y="-1500">
+        <q style="margin-left:20%;font-weight:bold;">GIT 工作流</q>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="-1500">
+    	<q>现状背景</q>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q>GITHUB 开源项目合作</q>
+        <q style="margin-left:15%">Fork --> Spoon --> Knife</q>
+        <p style="margin-left:60%"><img src="./img/forking_code.png"></p>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>Makrdown 哲学</q>
+        <q>Markdown 是針對易於與閱讀的目標而設計的，特別是在易於閱讀這點上尤為重要</q>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-1500">
+        <q>John Gruber</q>
+        <q>一份 Markdown 格式的文件應該要能以純文字形式直接發表，並且一眼看過去不存在任何標記用的標籤或格式指令。</q>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">快速进入</span>
+        <h1>Markdown</h1>
+    </div>
+
+    <div id="plainMd" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <a href="./pandoc.html"><img src="./img/quick_view.png" width=100%></a>
+    </div>
+
+    <div id="viewInPdf" class="step" data-x="850" data-y="7000" data-rotate="90" data-scale="5">
+    	<img src="./img/view_in_pdf.png" width="100%">
+    </div>
+
+    <div id="viewInHtml" class="step" data-x="850" data-y="11000" data-rotate="90" data-scale="5">
+    	<img src="./img/view_in_html.png" width="100%">
+    </div>
+
+    <div id="big" class="step" data-x="6000" data-y="5100" data-rotate="180" data-scale="6">
+        <p>Markdown 文档项目托管 <b>GIT</b> <span class="thoughts">文档并发合作产出</span></p>
+    </div>
+
+    <div id="ing" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p><b class="positioning">Pull</b>, <b class="rotating">关系型解耦</b>， 高频数据 <b class="scaling">内存读取</b> 彻底提升数据存储速度。</p>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+    	<q><b>Markdown 主流变种版本</b></q>
+        <ul>
+        	<li>&gt;&gt;2004&gt;&gt;For Email&gt;&gt;plain text format</li>
+            <li>* <a href="https://github.com/chigix/speech-md-mg-on-git/blob/master/README.md">Github Flavored Markdown</a></li>
+            <li>* <a href="./pandoc.html">Pandoc</a></li>
+        </ul>
+    </div>
+
+
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">以</span> <span class="you">上，</span> <span class="noticed">完</span> <span class="its">了</span> <span class="in">...</span>谢谢</p>
+        <span class="footnote">* 李颖豪</span>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
